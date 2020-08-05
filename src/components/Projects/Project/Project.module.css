@@ -1,0 +1,118 @@
+.wrapper_project {
+	margin-bottom: 8rem;
+}
+
+.title {
+	margin: 0px 0px 18px;
+	font-weight: bold;
+	font-size: 1.6rem;
+}
+
+.wrapper_image {
+	margin: auto;
+	padding: 10px;
+	justify-content: center;
+}
+
+.wrapper_text{
+	display: flex;
+	height: 100%;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.wrapper_buttons {
+	margin: 10px 0px 15px;
+}
+
+.picture {
+	height: auto;
+	width: 90%;
+	-webkit-box-shadow: -6px 7px 15px -4px rgba(0,0,0,0.41);
+	-moz-box-shadow: -6px 7px 15px -4px rgba(0,0,0,0.41);
+	box-shadow: -6px 7px 15px -4px rgba(0,0,0,0.41);
+}
+
+
+
+.btn_live {
+	border: 2px solid ;
+	padding: 8px 16px;
+	border-image: linear-gradient(135deg, rgb(2, 170, 176), rgb(0, 205, 172)) 1 / 1 / 0 stretch;
+	background-image: linear-gradient(135deg, rgb(2, 170, 176), rgb(0, 205, 172));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+
+
+
+.btn {
+	padding: 8px 16px;
+	background-image: linear-gradient(135deg, rgb(2, 170, 176), rgb(0, 205, 172));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+  padding-left: 20px;
+}
+
+
+/***************TEST **********************/
+
+.button {
+	border: 2px solid;
+	padding: 5px 10px;
+	border-image: linear-gradient(135deg, rgb(2, 170, 176), rgb(0, 205, 172)) 1 / 1 / 0 stretch;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: inherit;
+	background-image: linear-gradient(135deg, rgb(2, 170, 176), rgb(0, 205, 172));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.button:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	transition: all 0.3s;
+}
+
+
+
+.btnLive:after {
+	width: 0%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: linear-gradient(135deg, rgb(2, 170, 176), rgb(0, 205, 172));
+}
+
+.btnLive:hover,
+.btnLive:active {
+	color: white;
+	-webkit-text-fill-color: white;
+    color: white;
+}
+
+.btnLive:hover:after,
+.btnLive:active:after {
+	width: 100%;
+}
+
+.btnLive:focus {
+	outline: none;
+}

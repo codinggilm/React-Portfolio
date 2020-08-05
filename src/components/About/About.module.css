@@ -1,0 +1,118 @@
+.section_about {
+	display: flex;
+	justify-content: center;
+	padding-top: 2rem;
+	padding-bottom: 7rem;
+	background-color: rgb(2, 170, 176);
+    background-image: linear-gradient(135deg, rgb(2, 170, 176), rgb(0, 205, 172));
+    color: rgb(255, 255, 255);
+    clip-path: polygon(0px 0px, 100% 0px, 100% 80%, 0px 100%);
+    height: 100%;
+}
+
+
+.container {
+	display: block;
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    box-sizing: border-box;
+}
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2.5rem;
+	margin: 0 0 4.5rem; 
+}
+
+.wrapper_image {
+	display: flex;
+	margin: auto;
+	padding: 10px;
+}
+
+.wrapper_info {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.me {
+	height: auto;
+	max-width: 100%;
+}
+
+.button {
+	border: 2px solid white;
+	padding: 5px 10px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 1rem;
+	background: none;
+	cursor: pointer;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	text-align: center;
+}
+
+.button:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	transition: all 0.3s;
+}
+
+.btn_contact:after {
+	width: 0%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: white;
+}
+
+.btn_contact:hover,
+.btn_contact:active {
+	background-image: linear-gradient(135deg, rgb(2, 170, 176), rgb(0, 205, 172));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.btn_contact:hover:after,
+.btn_contact:active:after {
+	width: 100%;
+}
+
+.btn_contact:focus {
+	outline: none;
+}
+
+
+@media (min-width: 1200px) {
+	.container {
+	    max-width: 1300px;
+	}
+}
+
+@media (max-width: 48em) {
+	.wrapper__info {
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+}
+
+@media (max-width: 75em) {
+	.section_about {
+		height: 100%;
+	    clip-path: none;
+	}
+}
