@@ -22,7 +22,7 @@ class Hero extends Component {
 				{/*<div className={classes.container}>*/}
 				<div className='container' ref='hero'>
 						<h1 className={classes.hero_intro}>
-						Hi, my name is <span className={classes.name}>Guillaume</span>
+						Hi, my name is <span className={classes.name}>GuillaumeGuillaume</span>
 						<br />
 						Welcome to my portfolio
 						</h1>
