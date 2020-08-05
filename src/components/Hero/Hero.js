@@ -19,13 +19,12 @@ class Hero extends Component {
 	render() {
 		return (
 				<div className={classes.section}>
-				{/*<div className={classes.container}>*/}
 				<div className='container' ref='hero'>
-						<h1 className={classes.hero_intro}>
-						Hi, my name is <span className={classes.name}>GuillaumeGuillaume</span>
-						<br />
-						Welcome to my portfolio
-						</h1>
+					<h1 className={classes.hero_intro}>
+					Hi, I'm <span className={classes.name}>Guillaume</span>
+					<br />
+					Welcome to my portfolio
+					</h1>
 				</div>		
 			</div>	
 		);
@@ -33,27 +32,3 @@ class Hero extends Component {
 };
 
 export default Hero;
-
-
-
-// <div className={classes.container}>
-// 		<div className='container'>
-// 			<div className={classes.wrapper_hero}>
-// 				<h1 className={classes.hero_intro}>
-// 				Hi, my name is <span className={classes.name}>Guillaume</span>
-// 				<br />
-// 				Welcome to my portfolio
-// 				</h1>
-// 		</div>
-// 		</div>
-
-
-/*******WORKS*******/
-
-// <div className={classes.container}>
-// 	<h1 className={classes.hero_intro}>
-// 	Hi, my name is <span className={classes.name}>Guillaume</span>
-// 	<br />
-// 	Welcome to my portfolio
-// 	</h1>
-// </div>

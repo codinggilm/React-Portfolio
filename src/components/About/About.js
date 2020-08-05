@@ -7,10 +7,8 @@ class About extends Component {
 
 	componentDidMount = () => {
     	const config1 = {
-    		// origin: 'left',
 	      	duration: 1000,
 	      	delay: 250,
-	      	// distance: '100px',
 	      	scale: 1,
 	      	easing: 'ease',
     	}
@@ -35,17 +33,15 @@ class About extends Component {
 	      	easing: 'ease',
     	}
     	sr.reveal(this.refs.text_reveal, config3)
-
   	}
 
 	render() {
 		return (
 			<div className={classes.section_about}>
 				<div className='container'>
-				{/*<div className={classes.container}>*/}
-				<h2 className={classes.title} ref='title_reveal'>
-					About me 
-				</h2>	
+					<h2 className={classes.title} ref='title_reveal'>
+						About me 
+					</h2>	
 					<div className='row'>
 						<div className='col-md-6 sm-12' ref='image_reveal'>
 							<div className={classes.wrapper_image}>
@@ -62,8 +58,8 @@ class About extends Component {
 								</p>
 								<p>
 								I have spent many hours learning from sites like Udemy and practicing. 
-								This portfolio showcases some of the projects I’ve built along the way. 
-								They have taught me a lot about the fundamentals of the core technologies 
+								This portfolio showcases some of what I’ve built during my developer journey so far. 
+								These projects have taught me a lot about the core technologies 
 								I am currently focusing on: HTML, CSS, JavaScript and React. 
 								</p>
 							<span>
