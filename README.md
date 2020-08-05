@@ -16,4 +16,4 @@ To view the app, click https://guillaumecroizon.netlify.app/ or copy the link to
 * REACT
 * HTML
 * CSS
-* BOOSTRAP
+* BOOTSTRAP
