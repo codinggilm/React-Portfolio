@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import classes from './Project.module.css';
 import sr from '../../../ScrollReveal';
-// import './Buttons.css';
 
 
 class Project extends Component {
