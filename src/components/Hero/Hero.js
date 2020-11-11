@@ -21,7 +21,7 @@ class Hero extends Component {
 				<div className={classes.section}>
 				<div className='container' ref='hero'>
 					<h1 className={classes.hero_intro}>
-					Hi, I'm <span className={classes.name}>Guillaume</span>
+					Hi, I'm <span className={classes.name}>Guillaume Croizon</span>
 					<br />
 					Welcome to my portfolio
 					</h1>

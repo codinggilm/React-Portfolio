@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Project from './Project/Project';
 import classes from './Projects.module.css';
+import dog from '../../assets/positive-touch.png';
 import burger from '../../assets/burgerbuilder.png';
 import face from '../../assets/facerecognition.png';
 import robo from '../../assets/robofriends.png';
@@ -26,12 +27,22 @@ class Projects extends Component {
 			<div className={classes.section_projects}>
 				<div className='container'>
 				<h3 className={classes.title} ref='title_reveal'>Projects</h3>
+				<Project 
+					title='Positive Touch'
+					image={dog}
+					demo='https://positive-touch.netlify.app/'
+					code='https://github.com/codinggilm/Positive-Touch'
+					text='This is my current commercial project, building a brand new site for the dog-training company 
+					Positive Touch Ltd. It is a work in progress, the site is not finished and there is a lot of work left to do before deploying it. 
+					I am in charge of the UX/UI design and the entire development. It is built using React and SASS, and the back-end will be built on NodeJS and PostgreSQL.  
+					I am not using any library such as Bootstrap or prebuilt React components. I want a challenge, all the code is mine.' 
+					/>
 					<Project 
 					title='Portfolio Site'
 					image={portfolio}
 					demo=''
 					code='https://github.com/codinggilm/React-Portfolio'
-					text='This is my first personal project. I have built it from scratch using React, HTML and CSS. 
+					text='This was my first personal project. I have built it from scratch using React, HTML and CSS. 
 						I was very eager to start coding my own project after finishing my courses, so starting
 						with building my portfolio site was a logical step. It has been a really fun and exciting experience, and 
 						I am now planning other projects, involving working with APIs and more complex JavaScript logic.' 
