@@ -13,10 +13,10 @@ const Footer = () => {
 		            <FontAwesomeIcon icon={faAngleUp} />
 		        </a>
 				<div className={classes.links}>
-		          	<a className={classes.icon} href="https://www.linkedin.com/in/guillaume-croizon/">
+		          	<a className={classes.icon} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/guillaume-croizon/">
 		            	<FontAwesomeIcon icon={faLinkedinIn} />
 		          	</a>
-					<a className={classes.icon} href="https://github.com/codinggilm">
+					<a className={classes.icon} target="_blank" rel="noopener noreferrer" href="https://github.com/codinggilm">
 		            	<FontAwesomeIcon icon={faGithub} />
 		          	</a>
 				</div>
