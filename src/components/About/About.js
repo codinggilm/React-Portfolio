@@ -54,13 +54,16 @@ class About extends Component {
 								Having learnt to play piano at 8, then drums at 15 and playing in bands ever since, 
 								I am a creative person at heart.
 								Coding offers me endless creative horizons and an incredibly rewarding problem-solving experience. 
-								It is my path to a career doing something I truly love, and a lot more than just a job.
+								It's a lot more than a job, I am passionate about coding and leveraging technology to solve problems. 
 								</p>
 								<p>
-								I have spent many hours learning from sites like Udemy and practicing. 
-								This portfolio showcases some of what I’ve built during my developer journey so far. 
-								These projects have taught me a lot about the core technologies 
-								I am currently focusing on: HTML, CSS, JavaScript and React. 
+								After many hours spent learning and practicing, this portfolio showcases some of what I’ve built during my 
+								developer journey so far. I have gained solid fundamental understanding of HTML, CSS, JavaScript and React; 
+								I also have exposure to back end technologies (Node, PostgreSQL).  
+								</p>
+								<p>
+								If you have a project idea or a commercial need for your business, please get in touch and 
+								let's have a chat! 
 								</p>
 							<span>
 								<a href="Guillaume_Croizon_CV.docx" download>
