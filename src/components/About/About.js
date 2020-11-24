@@ -63,7 +63,7 @@ class About extends Component {
 								I am currently focusing on: HTML, CSS, JavaScript and React. 
 								</p>
 							<span>
-								<a href='src/assets/Guillaume_Croizon_CV.docx' download>
+								<a href="Guillaume_Croizon_CV.docx" download>
 								<button className={`${classes.button} ${classes.btn_contact}`}>Download Resume</button>
 								</a>
 							</span>
