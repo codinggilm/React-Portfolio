@@ -7,6 +7,8 @@ import face from '../../assets/facerecognition.png';
 import robo from '../../assets/robofriends.png';
 import recipe from '../../assets/recipe.png';
 import portfolio from '../../assets/portfolio.png';
+import auction from '../../assets/auction.png';
+
 import sr from '../../ScrollReveal';
 
 
@@ -27,7 +29,14 @@ class Projects extends Component {
 			<div className={classes.section_projects}>
 				<div className='container'>
 				<h3 className={classes.title} ref='title_reveal'>Projects</h3>
-				<Project 
+					<Project 
+					title='Auction site'
+					image={auction}
+					demo='https://auction-site-front.herokuapp.com/'
+					code='https://github.com/codinggilm/Auction-Site'
+					text="My latest project. An auction app built on my own using React and Node.Js. Right now the goal for this app isn't to display a beautiful UI (that'll come later); the current focus is on the general code quality, the backend implementation, and adding new functionalities. I have implemented real time UI updates using Socket.IO. Please consult the README for instructions on how to use it. The API's code can be found on my github profile as well. A really fun project giving me plenty of challenges to solve."
+					/>
+					<Project 
 					title='Positive Touch'
 					image={dog}
 					demo='https://positive-touch.netlify.app/'
