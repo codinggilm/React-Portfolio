@@ -8,6 +8,7 @@ import robo from '../../assets/robofriends.png';
 import recipe from '../../assets/recipe.png';
 import portfolio from '../../assets/portfolio.png';
 import auction from '../../assets/auction.png';
+import flow from '../../assets/flow.png';
 
 import sr from '../../ScrollReveal';
 
@@ -30,11 +31,18 @@ class Projects extends Component {
 				<div className='container'>
 				<h3 className={classes.title} ref='title_reveal'>Projects</h3>
 					<Project 
+					title='Flow Tracker'
+					image={flow}
+					demo='/'
+					code='https://github.com/codinggilm/Flow-Tracker'
+					text="My current project, in early stages. A ticket management software similar to Jira where users can create projects, create/assign tickets, and it includes project management and user management functionalities. I have written a SRS for it (available in the /public folder), and I am following a development schedule based on weekly sprints. I am using React, Redux, SASS, NodeJs, and PostgreSQL."
+					/>
+					<Project 
 					title='Auction site'
 					image={auction}
 					demo='https://auction-site-front.herokuapp.com/'
 					code='https://github.com/codinggilm/Auction-Site'
-					text="My latest project. An auction app built on my own using React and Node.Js. Right now the goal for this app isn't to display a beautiful UI (that'll come later); the current focus is on the general code quality, the backend implementation, and adding new functionalities. I have implemented real time UI updates using Socket.IO. Please consult the README for instructions on how to use it. The API's code can be found on my github profile as well. A really fun project giving me plenty of challenges to solve."
+					text="An auction app built on my own using React and Node.Js. The goal for this app isn't to display a beautiful UI (that'll come later); the current focus is on the general code quality, the backend implementation, and adding new functionalities. I have implemented real time UI updates using Socket.IO. Please consult the README for instructions on how to use it. The API's code can be found on my github profile as well. A really fun project giving me plenty of challenges to solve."
 					/>
 					<Project 
 					title='Positive Touch'
