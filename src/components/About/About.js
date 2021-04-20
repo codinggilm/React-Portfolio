@@ -54,12 +54,10 @@ class About extends Component {
 								Having learnt to play piano at 8, then drums at 15 and playing in bands ever since, 
 								I am a creative person at heart.
 								Coding offers me endless creative horizons and an incredibly rewarding problem-solving experience. 
-								It's a lot more than a job, I am passionate about coding and leveraging technology to solve problems. 
+								It's a lot more than a job, I am truly passionate about programming and leveraging technology to solve problems. Most of my spare time is spent on learning more, improving my skills, and I'm always building something.
 								</p>
 								<p>
-								After many hours spent learning and practicing, this portfolio showcases some of what I’ve built during my 
-								developer journey so far. I have gained solid fundamental understanding of HTML, CSS, JavaScript and React; 
-								I also have exposure to back end technologies (Node, PostgreSQL).  
+								After hundreds of hours spent learning and practicing, this portfolio showcases some of what I’ve built so far. My skills include both front-end and back-end development, with a solid fundamental understanding of HTML, CSS, JavaScript, React & Redux, Node and PostgreSQL.
 								</p>
 								<p>
 								If you have a project idea or a commercial need for your business, please get in touch and 
